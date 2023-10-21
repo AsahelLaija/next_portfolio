@@ -37,6 +37,35 @@ export const projects = [
   },
 ];
 
+export const experience = [
+  {
+    title: 'Laija Engineering',
+    description: "",
+      image: '/images/laijaEngineering.png',
+      tags: ['JavaScript', 'css', 'html', 'Node.js'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 0,
+  },
+  {
+    title: 'El taco movil',
+    description:"",
+    image: '/images/elTacoMovil.png',
+    tags: ['React', 'JavaScript', 'css'],
+    source: 'https://github.com/AsahelLaija/elTacoMovil',
+    visit: 'https://eltacomovil.com',
+    id: 1,
+  },
+  {
+    title: 'Spotless Sleaning',
+    description: "",
+      image: '/images/spotless.png',
+      tags: ['html', 'css', 'nginx'],
+    source: 'https://github.com/AsahelLaija/spotlessCleaning',
+    visit: 'https://mhkspotlesscleaning.com',
+    id: 2,
+  }
+];
 export const TimeLineData = [
   { year: 2019, text: 'Started my journey', },
   { year: 2020, text: 'Worked at laija enigineering', },
